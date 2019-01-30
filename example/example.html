@@ -1,0 +1,31 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../domarrow.css" />
+  <script type="text/javascript" src="../domarrow.js"></script>
+  <style>
+    #d1, #d2 {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+    }
+    #d1 {
+      top: 100px;
+      left: 60px;
+      background-color: green;
+    }
+    #d2 {
+      top: 200px;
+      left: 0px;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div id="d1"></div>
+  <div id="d2"></div>
+  <connection from="#d1" to="#d2" color="red" tail></connection>
+
+</body>
+</html>
+
