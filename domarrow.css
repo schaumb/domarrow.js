@@ -1,9 +1,4 @@
-
-.mydiv{
-  background-color:#43A4DC;
-  position:absolute;
-}
-.line .arrow {
+connection .line .arrow {
   top: -5px;
   height: 0px;
   width: 0px;
@@ -12,27 +7,27 @@
   border-top: 6px solid transparent;
   background-clip: border-box;
 }
-.line .arrow-fw {
-  border-right: 12px solid red;
+connection .line .arrow-fw {
+  border-right: 12px solid black;
 }
 
-.line .arrow-bw {
+connection .line .arrow-bw {
   left: 100%;
-  border-left: 12px solid red;
+  border-left: 12px solid black;
   transform: translateX(-12px);
 }
 
-.line .text {
+connection .line .text {
   position: absolute;
   top: 100%;
   left: 50%;
   transform: translate(-50%, -100%);
 }
 
-.line {
+connection .line {
   position:absolute;
   height:2px;
-  
-  background-color: red;
+
+  background-color: black;
 }
 
